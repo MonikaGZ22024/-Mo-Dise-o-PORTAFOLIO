@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    background-color: white;
+}
+.navbar__container{
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+}
+a img{
+    padding: 0%;
+    margin: 0%;
+    max-width: 64px;
+    max-height: 64px;
+}
+/*Diseño de la barra de navegacion*/
+.navbar__menu {
+    list-style-type: none;
+    background-color: #EFEFEF;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    align-items: right;
+    margin: 0px 10px;
+}
+.navbar a:hover{
+    text-shadow: #4C4C4C -1px 0 1rem;
+}
+.navbar li{
+    float: left;
+}
+
+/*
+Configuracion del contenido:
+AboutMe.html
+*/
+.body__content{
+    display: flex;
+}
+.imagen{
+    float: left;
+    max-width: 634px;
+    max-height: 1011px;
+}
+/*Textos*/
+.texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.texto ul{
+    list-style-type: none;
+    padding-top: 3rem;
+    padding-left: 24rem;
+}
+.texto ul li{
+    font-size: 1.5rem;
+    writing-mode: vertical;
+    text-align: right;
+    text-transform: uppercase;
+}
+.texto p{
+    font-size: 1.5vh;
+    font-weight: 1;
+    top: 1rem;
+    padding-top: 10rem;
+    padding-left: 18rem;
+    color: #4C4C4C;
+}
+.paragraph{
+    text-align: justify;
+    text-align: right;
+}
+.aboutMe__centrado{
+    /*Configuracion del texto*/
+    font-size: 3rem;
+    font-weight: 400;
+    top: 50%;
+    left: 40%;
+    color: #BC1F1F;
+    /*Ajuste de posicion*/
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+/*
+Para el html de Contactos.html
+*/
+.info__contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BC1F1F;
+}
+.info__contacto ul{
+    list-style-type: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 45%;
+    left: 50%;
+}
+.info__contacto ul li{
+    writing-mode: vertical;
+    text-align: right;
+}
+.info__contacto h3{
+    margin: 1rem;
+}
+/*
+Para el html de Proyectos.html
+*/
+.cont__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16rem;
+    margin: 0%;
+    list-style-type: none;
+}
+.cont__container a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    margin: 8rem;
+}
+/*
+Para el html de Ilustraciones.html
+*/
+.background-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="240" height="40"><text x="0" y="40" font-family="Arial, sans-serif" font-size="40" fill="rgba(0, 0, 0, 0.1)">MODISEÑO MODISEÑO MODISEÑO MODISEÑO MODISEÑO MODISEÑO MODISEÑO MODISEÑO MODISEÑO MODISEÑO</text></svg>');
+    pointer-events: none;
+}
+.img__centrada{
+    position: absolute;
+    display: flex;
+    margin-top:10%;
+    margin-left: 25%;
+
+}
+.img__centrada a img{
+    max-width: 75%;
+    max-height: 75%;
+}
+/* Adjust the spacing and density of the repeated text */
+html {
+    background-color: white; /* Change the background color if needed */
+}
+.cont__calc img{
+    width: 30%;
+    /*margin: 1.666666;*/
+    margin: calc(10%/10);
+}
+
